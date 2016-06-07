@@ -1,0 +1,2 @@
+linearizer:
+	g++ -pthread -std=c++0x main.cpp linearize_data_even_width.cpp linearize_file.cpp matrix_operations.cpp -o program
