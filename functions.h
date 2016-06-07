@@ -10,7 +10,10 @@
 void linearizeFile(const char* inputFilename, const char* outputFilename);
 
 /**
- * Применяет алгоритм линеаризации со скользящим окном к vector'у моментов Presentation Timestamp.
+ * \brief Применяет алгоритм линеаризации со скользящим окном к vector'у моментов Presentation Timestamp.
+ *        Одномерная регрессия описана на сайте
+ *        http://www.machinelearning.ru/wiki/index.php?title=Линейная_регрессия_(пример).
+ *
  * \param source Отсортированное по возрастанию множество моментов PTS
  * \param width Ширина окна в линеаризации
  * \returns вектор линеаризиванных данных

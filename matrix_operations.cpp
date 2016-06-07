@@ -24,7 +24,7 @@ int** const getMatrixA(const int width) {
  * \returns матрицу (A' * A)^(-1)
  */
 double** const getInverseSquareA(const int width) {
-	int** const A = matrixA(width);
+	int** const A = getMatrixA(width);
 	int squareA[2][2] = { { 0, 0 },{ 0, 0 } };
 
 	for (int i = 0; i < 2; ++i) {
